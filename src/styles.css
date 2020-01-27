@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+.mainApp {
+  padding: 10%;
+  margin-top: -5%;
+}
+
+.imprimantes {
+  height: 420px;
+  overflow-y: scroll;
+}
+
+.scanners {
+   height: 420px;
+    overflow-y: scroll;
+}
+
+row > .col-xs-3 {
+    display:flex;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+
+.card-block {
+  min-height: 300px;
+}
+
+.flex-nowrap {
+    -webkit-flex-wrap: nowrap!important;
+    -ms-flex-wrap: nowrap!important;
+    flex-wrap: nowrap!important;
+}
+.flex-row {
+    display:flex;
+    -webkit-box-orient: horizontal!important;
+    -webkit-box-direction: normal!important;
+    -webkit-flex-direction: row!important;
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+}
